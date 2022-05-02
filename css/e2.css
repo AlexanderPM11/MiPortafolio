@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:630px) {
+    .contMain{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+        .sectionPortafolio {
+           
+            margin:20px;
+          }
+     
+}
+
+
+
+@media screen and (min-width:500px ) and (max-width: 650px) {
+    
+        .btn_pro{
+            font-size: 12px;
+        }
+
+}
+@media screen and (max-width:300px )  {
+        .btn_pro{
+            font-size: 12px;
+        }
+
+}
+
+@media screen and (min-width:900px )  {
+    
+    .ContbtBar{
+        display: none;
+    }
+    .contUl{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: none;
+        margin:0px auto;
+       align-items: center;
+       max-width: 800px;
+       
+    }
+    .contUl li{
+        margin:0px auto;
+        margin-right: 10px;
+        padding: 15px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .contMenuNav{
+        display: flex;
+        
+        
+    }
+    .logo a{
+        margin-left: 40px;
+    }
+    .contLogoBotonBar{
+        padding: 30px;
+    }
+
+}

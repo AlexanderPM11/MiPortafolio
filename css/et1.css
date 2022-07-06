@@ -30,6 +30,7 @@
   top: 155px;
   left: 50%;
   transform: translate(-50%, -50%);
+  object-fit:fill;
 }
 .Titlename {
   font-size: 30px;
@@ -134,19 +135,32 @@ background-color: #1c816d;;
 
 .sectionPortafolio {
   display: flex;
-  height: 300px;
+  height: 436px;
   width: 100%;
-  background-color: #22e252;
   border-radius: 6px;
   max-width:300px;
   justify-content: center;
   cursor: pointer;
   margin:14px auto;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
 }
 .controject1{
   width: 100%;
-  height: auto;
-  margin: auto;
+  height: 100px;
+}
+.card__hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: orange;
+}
+
+.sectionPortafolio:checked + .card__hover {
+  display: block;
 }
 .sectionPortafolio:hover {
   transform: translateY(-5px);
@@ -154,6 +168,8 @@ background-color: #1c816d;;
   -webkit-box-shadow: -2px 22px 5px -8px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: -2px 22px 5px -8px rgba(0, 0, 0, 0.57);
   box-shadow: -2px 22px 5px -8px rgba(0, 0, 0, 0.57);
+
+  
 }
 .titlePortafolio, i{
   font-size: 45px;
@@ -177,7 +193,7 @@ background-color: #1c816d;;
 }
 .img_project1 {
   width: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: fill;
   border-radius: 6px;
 
@@ -227,4 +243,21 @@ background-color: #1c816d;;
   text-align: center;
   margin: 10px auto 0px;
   padding: 2px;
+}
+.description{
+  padding: 10px;
+  margin-top: -92px;
+}
+.description p{
+  text-align: justify;
+}
+.Cont_Btn{
+  display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }

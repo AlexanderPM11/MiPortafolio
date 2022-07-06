@@ -15,27 +15,34 @@ btnBar.addEventListener("click",()=>{
     }
 });
 
-function showM( modal) {
-    $(modal).modal("show");
-}
+// function showM( modal) {
+//     $(modal).modal("show");
+// }
 
-const card=document.querySelector(".img1");
-    card.addEventListener("click",()=>{
-        showM("#EjemploModal1");
-    });
+// const card=document.querySelector(".img1");
+//     card.addEventListener("click",()=>{
+//         showM("#EjemploModal1");
+//     });
 
-const card2=document.querySelector(".img2");
-card2.addEventListener("click",()=>{
-    showM("#EjemploModal2");
-});
-const card3=document.querySelector(".img3");
-card3.addEventListener("click",()=>{
-    showM("#EjemploModal3");
+// const card2=document.querySelector(".img2");
+// card2.addEventListener("click",()=>{
+//     showM("#EjemploModal2");
+// });
+// const card3=document.querySelector(".img3");
+// card3.addEventListener("click",()=>{
+//     showM("#EjemploModal3");
    
-});
-function closeModal(modal_close){
-    $(modal_close). modal('hide') 
-}
+// });
+// const card4=document.querySelector(".img4");
+// card4.addEventListener("click",()=>{
+//     showM("#EjemploModal4");
+   
+// });
+// function closeModal(modal_close){
+//     $(modal_close). modal('hide') 
+// }
+
+
 const ultCont=document.querySelector(".contUl");
 onresize=function() { 
         const ancho_Screen=screen.width;

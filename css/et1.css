@@ -171,6 +171,21 @@ box-shadow: 5px 5px 15px 5px #000000;
 
   
 }
+.contImageSkillNetCore{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 3px 10px 40px;
+  max-width: 200px;
+  border-radius: 5px;
+  background-color: #556d68;
+}
+
+.img_netCore{
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
 .titlePortafolio, i{
   font-size: 45px;
   text-transform: uppercase;

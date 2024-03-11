@@ -1,2 +1,340 @@
-<?php
-header("Location:html/index.html");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/et1.css?1.5" />
+    <link rel="stylesheet" href="../css/e2.css?1.0" />
+    <link rel="stylesheet" href="../css/styl3.css?1.1" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3762365bc6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../src/favicon.ico">
+    <title>Alexander | Portafolio</title>
+  </head>
+  <body>
+    <header class="cont-cabecera">
+      <img class="circle" src="../src/profile.jpeg" alt="logo large" />
+      <h1 class="Titlename">Alexander</h1>
+      <h2 class="Titlelevel">Desarrollador Full-stack</h2>
+      <video autoplay loop muted class="videoAuto">
+        <source src="../src/bg.mp4" />
+      </video>
+    </header>
+
+    <nav class="contMenuNav">
+      <div class="contLogoBotonBar">
+        <div class="logo">
+          <a  href="#" class="p_titleFomr">alex</a>
+        </div>
+        <div class="ContbtBar">
+          <i class="fa-solid fa-bars  btn_Set"></i>
+        </div>
+      </div>
+      <ul class="contUl">
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#skillset">Habilidades</a></li>
+        <li><a href="#acerca">Acerca</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contTitleSetion" id="portfolio">
+      <h3 class="titlePortafolio" >Portafolio</h3>
+      <i class="fa-solid fa-star"></i>
+    </div>
+
+
+    <main class="contMain">
+        <section class="sectionPortafolio">
+              <div class="controject1">
+                <div class="contIm">
+                    <img src="../src/Software_abogados.png" class="img_project1 img1" alt="proyecto 1">
+                </div>  
+                <div class="description">
+                  <p>Es un sistema diseñado para almacenar y gestionar los diferentes procesos 
+                    que hace un abogado cuando esta debatiendo un caso.....
+                    Pulse los siguientes enlaces para mas información.
+                  </p>
+                </div>
+                <div class="Cont_Btn">
+                  <div class="btn-group ">
+                    <a href="http://casoabogado.rf.gd/php/login.php" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                    <a href="https://github.com/AlexanderPM11/sistemaGestionAbogado" target="_blank" class="btn btn-outline-warning">Código github</a>
+                  </div> 
+                </div>
+               
+            </div>
+            
+        </section>
+
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">
+                <img src="../src/MemoryGame.jpg" class="img_project1 img3" alt="proyecto 1">
+            </div>
+            <div class="description">
+              <p>Pon a prueba tus habilidades con nuestros juegos de memoria.
+                Encuentra las parejas de todas las tarjetas en el menor número de movimientos posible. Vamos! intentalo
+                sé que puedes.
+              </p>
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="https://alexanderpm11.github.io/html/index.html" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/AlexanderPM11.github.io" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+       
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">
+              <img src="../src/proyect2.jpeg" class="img_project1 img2" alt="proyecto 1">
+            </div>  
+            <div class="description">
+              <p>
+                Portal web acerca de los CTCs y Universidades de República Dominican. 
+                Cuenta con un mapa donde podemos ver las
+                 universidades o CTCs...Pulse los siguientes enlaces para mas informacion.
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="https://propagable-fire.000webhostapp.com/" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/universidadesYCTCs" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>            
+        </div>
+        </section>
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">                
+                <img src="../src/imarket.png" class="img_project1 img4" alt="proyecto 1">
+            </div>    
+            <div class="description">
+              <p>
+                Es un sistema tipo Emarket. Nos permite hacer diferentes publicaciones de articulos,
+                 así como también visualizar las publicaciones de otros usuarios. Super interante!!.
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="http://Emarkett.somee.com" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/Emarket" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">                
+                <img src="../src/RedSocial.jpeg" class="img_project1 img4" alt="proyecto 1">
+            </div>    
+            <div class="description">
+              <p>
+                Simulación de una red social tal y como las que conocemos a día de hoy. Se pueden hacer publicacones, cometarios 
+                y por supuesto agregar amigos. 
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="http://socialmedia.somee.com/" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/socialMedia" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">                
+                <img src="../src/internetBanking.jpg" class="img_project1 img4" alt="proyecto 1">
+            </div>    
+            <div class="description">
+              <p>
+                Simulación de un internet banking. El sistema permite crear tarjeta de créditos, prestamos,
+                cuentas de ahorros etc.. Se manejan diferentes tipos de usuarios y roles...
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="http://banking.somee.com" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/BankingApp" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">                
+                <img src="../src/EmarketImmovable.jpeg" class="img_project1 img4" alt="proyecto 1">
+            </div>    
+            <div class="description">
+              <p>
+                Es un Emarket para publicaciones de propiedades o inmuebles que pueden ser de ventas, alquiler etc.. Es una web muy atractiva
+                y útil que podemos usar tanto para promocinar propiedades o inmuebles....
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="http://TuPropiedad.somee.com" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+                <a href="https://github.com/AlexanderPM11/RealtyApp" target="_blank" class="btn btn-outline-warning">Código github</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+
+        <section class="sectionPortafolio">
+          <div class="controject1">
+            <div class="contIm">                
+                <img src="../src/proyectDaniel.jpeg" class="img_project1 img4" alt="proyecto 1">
+            </div>    
+            <div class="description">
+              <p>
+
+                Colaboración en la creación del portafolio de amigo Daniel De La Rosa. Estuve trabajando mayormente, en
+                la parte del frontend. Puede hecharle un vistazo y ver que tal. 
+              </p>
+            </div>
+            <div class="Cont_Btn">
+              <div class="btn-group ">
+                <a href="https://dnldelarosa.com/" target="_blank" class="btn btn-outline-primary">Ver proyecto</a>
+              </div> 
+            </div>           
+        </div>
+        </section>
+      <!--  -->
+    <section class="sectionHabilidades" id="skillset">
+      <div class="contTitleSetion ">
+        <h3 class="titlePortafolio titleHabilidades" >Habilidades</h3>
+        <i class="fa-solid fa-star i_habilidades"></i>
+      </div>
+     
+       <div class="contImageSkill">
+          <img src="../src/css.png"  alt="php" title="css" class="img_skill" title="CSS">
+          <p class="title_img_skill" >CSS</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/html.png" alt="php" title="html" class="img_skill">
+          <p class="title_img_skill">HTML</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/javascript.png" alt="javascript" title="Javascript" class="img_skill">
+          <p class="title_img_skill">JAVASCRIPT</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/php.png" alt="php" title="php" class="img_skill">
+          <p class="title_img_skill">PHP</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/cSharp.png" alt="C Sharp" title="C Sharp" class="img_skill">
+          <p class="title_img_skill">C Sharp</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/aspnetcore-logo.png" alt="asp.net Core" title="ASP.NET Core" class="img_skill">
+          <p class="title_img_skill">Asp.NET Core</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/sql.png" alt="php" title="sql" class="img_skill">
+          <p class="title_img_skill">SQL</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/git.png" alt="git" title="git" class="img_skill">
+          <p class="title_img_skill">GIT</p>
+        </div>
+        <div class="contImageSkill">
+          <img src="../src/github.png" alt="github" title="github" class="img_skill">
+          <p class="title_img_skill">GITHUB</p>
+        </div>
+  
+      </section>
+      <section class="acerca" id="acerca">
+        <div class="contTitleSetion">
+          <h3 class="titlePortafolio titleHabilidades  " >Acerca</h3>
+          <i class="fa-solid fa-star  i_habilidades"></i>
+        </div>
+        <div class="parrafoAcerca">
+          <p>Hi! Mi nombre es Alexander Polanco. Soy un joven apasionado por la informática en general. Pero,
+            especialmente en desarrollo de software. En la actualidad me encuentro estudiante Desarrollo De Software 
+            en el instituto Tecnológico de las Américas (ITLA).  Si desea más información de este servidor, puede descargar
+            mi CV o contactarme en las diferentes redes sociales que aparecen en el footer de la página o llenando el siguiente formulario.
+            <br>
+            <div class="cont_btn_cv">
+              <a class="a_btn_cv" href="../html/curriculum.html" target="_blank"><i class="fa-solid fa-download"></i>Ver Cv</a>
+            </div>
+            
+            
+          </p>
+        </div>
+      </section>
+
+      <section class="sectionHabilidades section_contac" id="contact">
+        <div class="contTitleSetion">
+          <h3 class="titlePortafolio " >Contáctame</h3>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <form class="form" name="formulario_me" action="../php/index.php" method="post">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control input1" 
+             placeholder="Correo " id="InputEmail1" name="inputEmail" required aria-describedby="emailHelp">
+          </div>
+         
+          <div class="form-floating">
+            <label for="floatingTextarea"  class="form-label">Mensaje</label>
+            <textarea class="form-control" placeholder="Mensaje" required name="textareaInput" id="Textarea"></textarea>
+            
+          </div>
+          <button type="submit" class="btn btn-primary btn_submit">Enviar</button>
+        </form>
+        </section>
+    </main>
+    <footer class="pie">
+      
+      <div class="contTitleRedes">
+        <h4>Redes sociales</h4>
+      </div>
+        <div class="ImgcontSociaMe">
+         <a href="https://web.facebook.com/profile.php?id=100060892943394" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="ImgcontSociaMe">
+         <a href="https://t.me/alexanderJpm" target="_blank"><i class="fa-brands fa-telegram"></i></a> 
+        </div>
+        <div class="ImgcontSociaMe">
+         <a href="https://www.instagram.com/alexanderpolanco909/" class="ver" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+        </div>
+        <div class="ImgcontSociaMe">
+         <a href="https://www.linkedin.com/in/alexander-polanco-moreno-465092238/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="ImgcontSociaMe">
+          <a href="https://github.com/AlexanderPM11" target="_blank"> <i class="fa-brands fa-github"></i></a>
+         </div>
+
+    </footer>
+    <div class="copyright">
+      <p>Copyright © alexanderpolanco.com 2022</p>
+  </div>
+  </body>
+
+</html>
+
+
+<script src="../js/index_js.js?1.2"></script>
+<script>
+  if (window.history.replaceState) { // verificamos disponibilidad
+      window.history.replaceState(null, null, window.location.href);
+  }
+</script>
